@@ -1,0 +1,18 @@
+#security:
+#  oauth2:
+#    client:
+#      client-id:
+#      client-secret:
+#    resource:
+#      jwt:
+#        key-value: |
+#          -----BEGIN PUBLIC KEY-----
+#          -----END PUBLIC KEY-----
+app:
+  oauth2:
+    client-id:
+    client-secret:
+  user:
+    username:
+    password:
+
